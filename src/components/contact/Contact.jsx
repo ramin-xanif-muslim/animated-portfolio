@@ -3,6 +3,7 @@ import "./contact.scss";
 import { motion, useInView } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
+
 const variants = {
   initial: {
     y: 500,
@@ -18,6 +19,11 @@ const variants = {
   },
 };
 
+// const serverId = process.env.REACT_APP_SERVER_ID;
+// const templateId = process.env.REACT_APP_TEMPLATE_ID;
+// const privateKey = process.env.REACT_APP_PRIVATE_KEY;
+
+
 const Contact = () => {
   const ref = useRef();
   const formRef = useRef();
@@ -26,15 +32,22 @@ const Contact = () => {
 
   const isInView = useInView(ref, { margin: "-100px" });
 
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
     e.preventDefault();
 
+    // emailjs
+    //   .sendForm(
+    //     serverId,
+    //     templateId,
+    //     formRef.current,
+    //     privateKey,
+    //   )
     emailjs
       .sendForm(
-        "service_94y20xo",
-        "template_v10u2oh",
+        "service_zsgbewn",
+        "template_z6t8ju3",
         formRef.current,
-        "pX_2hasGmGcuvjXIW"
+        "h2Hwn-s7qDmxes5c1"
       )
       .then(
         (result) => {
@@ -58,15 +71,11 @@ const Contact = () => {
         <motion.h1 variants={variants}>Let’s work together</motion.h1>
         <motion.div className="item" variants={variants}>
           <h2>Mail</h2>
-          <span>hello@react.dev</span>
+          <span>ramin.ramiz.oglu1@gmail.com</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Address</h2>
-          <span>Hello street New York</span>
-        </motion.div>
-        <motion.div className="item" variants={variants}>
-          <h2>Phone</h2>
-          <span>+1 234 5678</span>
+          <span>Baku city, Azerbaijan</span>
         </motion.div>
       </motion.div>
       <div className="formContainer">
