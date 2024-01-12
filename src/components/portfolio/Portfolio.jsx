@@ -24,51 +24,9 @@ const items = [
         title: "Business Process Hub",
         img: "/akul.jpg",
         desc: "Welcome to the Unified Process Hub — your key to streamlined efficiency. Manage your business processes seamlessly from a centralized hub, take command of operations, monitor real-time progress, and make informed decisions. Elevate your management strategy with unparalleled efficiency.",
-        link: "http://localhost:3000/?showDemo=true",
-        // link: "https://online.akul.az/?login=admin@demo&password=demo",
+        link: "http://dev.akul.az/?showDemo=true",
     },
 ];
-
-const AkulDemo = ({ item }) => {
-    const ref = useRef();
-
-    const { scrollYProgress } = useScroll({
-        target: ref,
-    });
-
-    const y = useTransform(scrollYProgress, [0, 1], [-300, 300]);
-
-    const sendData = async () => {
-      try {
-        const response = await axios.post('https://bein.az/send.php', {
-          login: 'admin@demo',
-          password: 'demo'
-        });
-        console.log('Ответ сервера:', response.data);
-      } catch (error) {
-        console.error('Ошибка запроса:', error);
-      }
-    };
-    
-    
-
-    return (
-        <section>
-            <div className="container">
-                <div className="wrapper">
-                    <div className="imageContainer" ref={ref}>
-                        <img src={item.img} alt="" />
-                    </div>
-                    <motion.div className="textContainer" style={{ y }}>
-                        <h2>{item.title}</h2>
-                        <p>{item.desc}</p>
-                        <button onClick={sendData}>See Demo</button>
-                    </motion.div>
-                </div>
-            </div>
-        </section>
-    );
-};
 
 const Single = ({ item }) => {
     const ref = useRef();
@@ -127,11 +85,9 @@ const Portfolio = () => {
                     className="progressBar"
                 ></motion.div>
             </div>
-            {items.map((item) => {
-              // if(item.akul) return <AkulDemo item={item} key={item.id} />
-
-              return <Single item={item} key={item.id} />
-            })}
+            {items.map((item) => (
+                <Single item={item} key={item.id} />
+            ))}
         </div>
     );
 };
