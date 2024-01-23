@@ -26,6 +26,13 @@ const items = [
         desc: "Welcome to the Unified Process Hub — your key to streamlined efficiency. Manage your business processes seamlessly from a centralized hub, take command of operations, monitor real-time progress, and make informed decisions. Elevate your management strategy with unparalleled efficiency.",
         link: "http://dev.akul.az/?showDemo=true",
     },
+    {
+        id: 4,
+        title: "Hotelzz",
+        img: "/hotel-managements.jpg",
+        desc: "Experience an Exquisite Hotel Immersed in Rich History and Timeless Elegance.",
+        link: "https://hotel-management-delta.vercel.app/",
+    },
 ];
 
 const Single = ({ item }) => {
