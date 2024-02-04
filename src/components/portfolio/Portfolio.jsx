@@ -33,6 +33,13 @@ const items = [
         desc: "Experience an Exquisite Hotel Immersed in Rich History and Timeless Elegance.",
         link: "https://hotel-management-delta.vercel.app/",
     },
+    {
+        id: 5,
+        title: "Figma clone",
+        img: "/figma-clone.jpg",
+        desc: "A minimalistic Figma clone to show how to add real-world features like live collaboration with cursor chat, comments, reactions, and drawing designs (shapes, image upload) on the canvas using fabric.js.",
+        link: "https://rk-figma.vercel.app/",
+    },
 ];
 
 const Single = ({ item }) => {
