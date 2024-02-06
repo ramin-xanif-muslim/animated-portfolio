@@ -13,7 +13,7 @@ const App = () => {
     <div>
       <Cursor />
       <section id="Homepage">
-        {/* <Navbar /> */}
+        <Navbar />
         <Hero />
       </section>
       {/* <section id="Services">
