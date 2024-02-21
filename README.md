@@ -11,23 +11,6 @@ Hello there! I'm Ramin Kerimov, a passionate React developer with 3 years of exp
 - Understanding of RESTful APIs and asynchronous JavaScript (Promises, async/await).
 - Ability to write clean, maintainable, and scalable code.
 
-## Projects
-Here are some of the projects I've worked on:
-
-1. [Project Name](link-to-project) - Brief description of the project.
-2. [Project Name](link-to-project) - Brief description of the project.
-3. [Project Name](link-to-project) - Brief description of the project.
-
-## Experience
-- [Company Name](link-to-company) - Position (Month Year - Present)
-  - Description of responsibilities and achievements.
-- [Company Name](link-to-company) - Position (Month Year - Month Year)
-  - Description of responsibilities and achievements.
-
-## Education
-- Bachelor's/Master's Degree in Computer Science/Software Engineering (Year)
-- Any relevant certifications or online courses completed.
-
 ## Contact
 Feel free to reach out to me via [email](ramin.ramiz.oglu1@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/ramin-kerimov-3b8a75291/).
 
@@ -37,3 +20,22 @@ Feel free to reach out to me via [email](ramin.ramiz.oglu1@gmail.com) or connect
 - [Portfolio Website](https://ramin-karimov-portfolio.vercel.app)
 
 Thank you for visiting my GitHub profile!
+
+
+
+<!-- ## Projects
+Here are some of the projects I've worked on:
+
+1. [Project Name](link-to-project) - Brief description of the project.
+2. [Project Name](link-to-project) - Brief description of the project.
+3. [Project Name](link-to-project) - Brief description of the project. -->
+
+<!-- ## Experience
+- [Company Name](link-to-company) - Position (Month Year - Present)
+  - Description of responsibilities and achievements.
+- [Company Name](link-to-company) - Position (Month Year - Month Year)
+  - Description of responsibilities and achievements. -->
+<!-- 
+## Education
+- Bachelor's/Master's Degree in Computer Science/Software Engineering (Year)
+- Any relevant certifications or online courses completed. -->
