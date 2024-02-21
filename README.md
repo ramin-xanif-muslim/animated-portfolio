@@ -1,7 +1,7 @@
 # Ramin Kerimov - React Developer
 
 ## Introduction
-Hello there! I'm Ramin Kerimov, a passionate React developer with [X] years of experience in building web applications. I thrive on crafting elegant solutions to complex problems and love diving deep into the world of front-end development.
+Hello there! I'm Ramin Kerimov, a passionate React developer with 3 years of experience in building web applications. I thrive on crafting elegant solutions to complex problems and love diving deep into the world of front-end development.
 
 ## Skills
 - Proficient in React.js and its ecosystem including Redux, React Router, and Context API.
@@ -29,11 +29,11 @@ Here are some of the projects I've worked on:
 - Any relevant certifications or online courses completed.
 
 ## Contact
-Feel free to reach out to me via [email](mailto:your.email@example.com) or connect with me on [LinkedIn](your-linkedin-profile-link).
+Feel free to reach out to me via [email](ramin.ramiz.oglu1@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/ramin-kerimov-3b8a75291/).
 
 ## Let's Connect!
-- [LinkedIn](your-linkedin-profile-link)
-- [GitHub](link-to-your-github-profile)
-- [Portfolio Website](link-to-your-portfolio-website)
+- [LinkedIn](https://www.linkedin.com/in/ramin-kerimov-3b8a75291/)
+- [GitHub](https://github.com/ramin-xanif-muslim/animated-portfolio?tab=readme-ov-file)
+- [Portfolio Website](https://ramin-karimov-portfolio.vercel.app)
 
 Thank you for visiting my GitHub profile!
