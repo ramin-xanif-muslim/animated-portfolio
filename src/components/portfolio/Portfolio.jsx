@@ -42,7 +42,7 @@ const items = [
     },
     {
         id: 6,
-        title: "Figma clone",
+        title: "Shoes",
         img: "/shoes.jpg",
         desc: "The 'Shoes' website is an interactive web resource developed using React, designed to sell shoes. It offers a wide range of shoes of different styles and brands, an easy-to-use interface for browsing products, and an easy purchasing process.",
         link: "https://shoes-green.vercel.app/",
