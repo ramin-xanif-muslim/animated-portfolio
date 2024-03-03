@@ -40,6 +40,13 @@ const items = [
         desc: "A minimalistic Figma clone to show how to add real-world features like live collaboration with cursor chat, comments, reactions, and drawing designs (shapes, image upload) on the canvas using fabric.js.",
         link: "https://rk-figma.vercel.app/",
     },
+    {
+        id: 6,
+        title: "Figma clone",
+        img: "/shoes.jpg",
+        desc: "The 'Shoes' website is an interactive web resource developed using React, designed to sell shoes. It offers a wide range of shoes of different styles and brands, an easy-to-use interface for browsing products, and an easy purchasing process.",
+        link: "https://shoes-green.vercel.app/",
+    },
 ];
 
 const Single = ({ item }) => {
