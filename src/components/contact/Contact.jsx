@@ -19,10 +19,6 @@ const variants = {
   },
 };
 
-// const serverId = process.env.REACT_APP_SERVER_ID;
-// const templateId = process.env.REACT_APP_TEMPLATE_ID;
-// const privateKey = process.env.REACT_APP_PRIVATE_KEY;
-
 
 const Contact = () => {
   const ref = useRef();
@@ -34,14 +30,6 @@ const Contact = () => {
 
   const sendEmail = async (e) => {
     e.preventDefault();
-
-    // emailjs
-    //   .sendForm(
-    //     serverId,
-    //     templateId,
-    //     formRef.current,
-    //     privateKey,
-    //   )
     emailjs
       .sendForm(
         "service_zsgbewn",
@@ -50,10 +38,10 @@ const Contact = () => {
         "h2Hwn-s7qDmxes5c1"
       )
       .then(
-        (result) => {
+        () => {
           setSuccess(true)
         },
-        (error) => {
+        () => {
           setError(true);
         }
       );
@@ -71,7 +59,7 @@ const Contact = () => {
         <motion.h1 variants={variants}>Let’s work together</motion.h1>
         <motion.div className="item" variants={variants}>
           <h2>Mail</h2>
-          <span>ramin.ramiz.oglu1@gmail.com</span>
+          <span>ramin.karimov.work@gmail.com</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Address</h2>

@@ -65,6 +65,8 @@
     position: absolute;
     top: 0;
     right: 0;
+    /* box-shadow: 0px 0px 15px rgba(240, 234, 234, 0.87); */
+    /* filter: drop-shadow(0px 0px 15px rgba(240, 234, 234, 0.87)); */
 
     @include mobile {
       height: 50%;

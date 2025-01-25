@@ -12,10 +12,11 @@
     position: fixed;
     top: 0;
     left: 0;
+    right: 0;
     bottom: 0;
     width: 400px;
     background: white;
-
+    
     @include mobile {
       width: 200px;
     }
@@ -47,7 +48,7 @@
     height: 50px;
     border-radius: 50%;
     position: fixed;
-    top: 25px;
+    top: 28px;
     left: 25px;
     background-color: transparent;
     border: none;
